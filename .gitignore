@@ -1,2 +1,11 @@
-# Ignorer les fichiers et répertoires spécifiques
-/node_modules
+# Ignorer le répertoire node_modules
+node_modules/
+
+# Ignorer tous les fichiers .log
+*.log
+
+# Ignorer un fichier spécifique
+config.ini
+
+# Ignorer un fichier spécifique dans un sous-répertoire
+src/config.json

@@ -4,6 +4,8 @@
   "description": "web site for UICI ( Université Internationale de Côte d'Ivoire )",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "IDA ROOT (https://idaroot.com)",
@@ -11,5 +13,8 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }

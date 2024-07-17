@@ -1,0 +1,15 @@
+{
+  "name": "uici.org",
+  "version": "1.0.0",
+  "description": "web site for UICI ( Université Internationale de Côte d'Ivoire )",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IDA ROOT (https://idaroot.com)",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
